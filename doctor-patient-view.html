@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient View & Prescription - Swarg Hospital</title>
+    <link rel="stylesheet" href="css/doctor.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Swarg Hospital</div>
+            <ul class="nav-links">
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="doctor-dashboard.html">Dashboard</a></li>
+                <li><a href="doctor-login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="page-container">
+        <h2 class="page-title">Patient Details & Prescription</h2>
+
+        <!-- BASIC PATIENT DETAILS CARD -->
+        <div class="patient-info-card">
+            <h3>Patient Information</h3>
+            <div class="info-row">
+                <span class="info-label">Patient Name:</span>
+                <span class="info-value">Rohan Mehta</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Patient ID:</span>
+                <span class="info-value">P1042</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Age / Gender:</span>
+                <span class="info-value">34 Yrs / Male</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Appointment Time:</span>
+                <span class="info-value">Today, 11:30 AM</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Contact:</span>
+                <span class="info-value">+91 98765 43210</span>
+            </div>
+        </div>
+
+        <!-- PRESCRIPTION FORM -->
+        <div class="table-card">
+            <h3>Write Prescription</h3>
+            <form action="doctor-dashboard.html">
+                <div class="form-group">
+                    <label for="diagnosis">Diagnosis / Clinical Notes</label>
+                    <textarea id="diagnosis" placeholder="Enter diagnosis or clinical observations"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="medicines">Prescribed Medicines &amp; Dosage</label>
+                    <textarea id="medicines" placeholder="Enter medicine name, dosage, and duration (e.g. Paracetamol 500mg - 1-0-1 - 5 Days)"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Prescription</button>
+            </form>
+        </div>
+
+        <!-- BACK LINK -->
+        <div style="text-align: center; margin-top: 15px;">
+            <a href="doctor-dashboard.html" style="color: #d87093; font-weight: bold; font-size: 15px;">&larr; Back to Doctor Dashboard</a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Swarg Hospital</h3>
+                <p>Quality healthcare with care and compassion.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+                    <li><a href="../home/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 XXXXX XXXXX</p>
+                <p>Email: swarg@example.com</p>
+                <p>Address: Mathura, Uttar Pradesh</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Swarg Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

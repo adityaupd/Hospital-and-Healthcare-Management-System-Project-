@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard - Swarg Hospital</title>
+    <link rel="stylesheet" href="css/doctor.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Swarg Hospital</div>
+            <ul class="nav-links">
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="doctor-dashboard.html">Dashboard</a></li>
+                <li><a href="doctor-login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="page-container">
+        <h2 class="page-title">Doctor Dashboard</h2>
+
+        <!-- DOCTOR PROFILE CARD -->
+        <div class="doctor-profile-card">
+            <h3>Welcome, Dr. Aditi Thakur</h3>
+            <p><strong>Department:</strong> Cardiology</p>
+        </div>
+
+        <!-- METRIC SUMMARY CARDS -->
+        <div class="metrics-grid">
+            <div class="metric-box">
+                <div class="metric-number">12</div>
+                <div class="metric-label">Today's Total Patients</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-number">10</div>
+                <div class="metric-label">Today's Appointments</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-number">6</div>
+                <div class="metric-label">Completed Appointments</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-number">4</div>
+                <div class="metric-label">Pending Appointments</div>
+            </div>
+        </div>
+
+        <!-- TODAY'S SCHEDULE TABLE -->
+        <div class="table-card">
+            <h3>Today's Schedule</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Appointment Time</th>
+                        <th>Patient Name</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:30 AM</td>
+                        <td>Amit Verma</td>
+                        <td class="status-completed">Completed</td>
+                        <td><a href="doctor-patient-view.html" class="btn btn-small">View Patient</a></td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>Sunita Devi</td>
+                        <td class="status-completed">Completed</td>
+                        <td><a href="doctor-patient-view.html" class="btn btn-small">View Patient</a></td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Rohan Mehta</td>
+                        <td class="status-pending">Pending</td>
+                        <td><a href="doctor-patient-view.html" class="btn btn-small">View Patient</a></td>
+                    </tr>
+                    <tr>
+                        <td>02:00 PM</td>
+                        <td>Pooja Sharma</td>
+                        <td class="status-pending">Pending</td>
+                        <td><a href="doctor-patient-view.html" class="btn btn-small">View Patient</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Swarg Hospital</h3>
+                <p>Quality healthcare with care and compassion.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+                    <li><a href="../home/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 XXXXX XXXXX</p>
+                <p>Email: swarg@example.com</p>
+                <p>Address: Mathura, Uttar Pradesh</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Swarg Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
