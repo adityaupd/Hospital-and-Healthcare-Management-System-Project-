@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swarg Hospital - Quality Healthcare, Closer to You</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Patient/CSS/style.css">
 </head>
 
 <body>
@@ -15,26 +15,26 @@
         <nav class="navbar">
             <div class="logo">Swarg Hospital</div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Departments</a></li>
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Patient Login</a></li>
+                <li><a href="index.HTML">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Patient/patient-login.html">Patient Login</a></li>
                 <li><a href="#">Doctor Login</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" id="about">
         <div class="hero-left">
             <div class="subheading">Trusted Healthcare for You and Your Family</div>
             <h1>Quality Healthcare,<br>Closer to You</h1>
             <p>Providing reliable healthcare services with experienced doctors and patient-focused care.</p>
             <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">Book Appointment</a>
-                <a href="#" class="btn btn-secondary">Find a Doctor</a>
+                <a href="Patient/appointment.html" class="btn btn-primary">Book Appointment</a>
+                <a href="#doctors" class="btn btn-secondary">Find a Doctor</a>
             </div>
 
         </div>
@@ -73,7 +73,7 @@
     </section>
 
     <!-- DEPARTMENTS SECTION -->
-    <section class="section">
+    <section class="section" id="departments">
         <h2 class="section-title">Our Departments</h2>
         <div class="departments-grid">
             <div class="dept-card">
@@ -121,6 +121,29 @@
         </div>
     </section>
 
+    <!-- DOCTORS SECTION -->
+    <section class="section" id="doctors">
+        <h2 class="section-title">Meet Our Doctors</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>Dr. Rahul Sharma</h3>
+                <p>Cardiologist with expertise in coronary care and preventive heart health.</p>
+            </div>
+            <div class="card">
+                <h3>Dr. Priya Singh</h3>
+                <p>Neurologist specializing in brain, nerve, and spine disorders.</p>
+            </div>
+            <div class="card">
+                <h3>Dr. Amit Kumar</h3>
+                <p>Orthopedic surgeon focused on joint, bone, and trauma care.</p>
+            </div>
+            <div class="card">
+                <h3>Dr. Neha Verma</h3>
+                <p>General physician supporting long-term health, diagnosis, and treatment.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- WHY CHOOSE US SECTION -->
     <section class="why-section">
         <h2 class="section-title">Why Choose Us</h2>
@@ -148,11 +171,11 @@
     <section class="cta-section">
         <h2>Need Medical Assistance?</h2>
         <p>Book an appointment with our doctors today.</p>
-        <a href="#" class="btn btn-primary">Book Appointment</a>
+        <a href="Patient/appointment.html" class="btn btn-primary">Book Appointment</a>
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer id="contact">
         <div class="footer-container">
             <div class="footer-col">
                 <h3>Swarg Hospital</h3>
